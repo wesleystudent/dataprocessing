@@ -1,0 +1,26 @@
+{ 
+	"companies" : [
+      {
+      	"id" : 1,
+        "name" : "Schoonbeek Enterprise",
+        "applications" :  [
+          {
+            "id" : 1,
+            "name" : "Test applicatie",
+            "rating" : 3,
+            "type" : "paid",
+            "price" : "15.30",
+            "version" : "1.0.35",
+            "reviews" : [
+              {
+                "id"  : 1,
+                "application_id" : 1,
+                "description" : "Very cool app! :)",
+                "rating" : 5
+              }
+            ]
+          }
+        ] 
+      }
+    ] 
+}
